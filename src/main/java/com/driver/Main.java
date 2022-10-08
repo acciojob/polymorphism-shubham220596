@@ -9,16 +9,15 @@ public class Main {
         p.product(5,6,7);
         p.product(2.5,6.5);
     }
-
-}
-class Product {
-    public int product(int x,int y) {
-        return x*y;
-    }
-    public int product(int x,int y,int z) {
-        return x*y*z;
-    }
-    public double product(double x,double y) {
-        return x*y;
+    public static class Product {
+        public int product(int x,int y) {
+            return x*y;
+        }
+        public int product(int x,int y,int z) {
+            return x*y*z;
+        }
+        public double product(double x,double y) {
+            return x*y;
+        }
     }
 }
